@@ -1,0 +1,41 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Lockable Chests",
+        "description": "Dynamically lock chests to players using world dynamic properties",
+        "uuid": "1289ee83-4e77-4b0c-a25a-8792a4a73dcf",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            93
+        ]
+    },
+    "modules": [
+        {
+            "type": "script",
+            "uuid": "00d3cc14-26dd-4d03-8d8e-80e0186182a2",
+            "version": [
+                1,
+                0,
+                0
+            ],
+            "language": "javascript",
+            "entry": "scripts/lockableChests.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.21.0"
+        },
+        {
+            "module_name": "@minecraft/vanilla-data",
+            "version": "1.0.0"
+        }
+    ]
+}
