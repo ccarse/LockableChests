@@ -1,0 +1,17 @@
+{
+  "name": "lockable-chests-bp",
+  "version": "1.0.0",
+  "description": "Minecraft Bedrock addon for lockable chests",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@minecraft/server": "^2.0.0",
+    "@minecraft/server-gametest": "^1.0.0-beta.1.21.60-preview.24"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
